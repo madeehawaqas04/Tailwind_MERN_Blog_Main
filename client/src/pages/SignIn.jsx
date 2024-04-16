@@ -80,6 +80,12 @@ export default function SignIn() {
                 onChange={handleChange}
               />
             </div>
+            <div className='flex gap-2 text-sm mt-2'>
+            <Link to='/forget-password' className='text-blue-500'>
+             Forget Password?
+            </Link>
+          </div>
+
             <Button
               gradientDuoTone='purpleToPink'
               type='submit'
